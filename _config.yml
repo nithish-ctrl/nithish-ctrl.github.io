@@ -1,3 +1,35 @@
-theme: jekyll-theme-minimal
-title: Nithish's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# =====================================================
+# THE DRAGON'S ARCHIVE | Nithish R
+# =====================================================
+
+title: "Nithish R | The Dragon's Archive"
+description: "AI/ML Engineer | Generative AI | Intelligent Systems"
+author: "Nithish R"
+
+url: "https://nithish-ctrl.github.io"
+baseurl: ""
+
+# GitHub Pages theme foundation
+remote_theme: pages-themes/midnight@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+show_downloads: false
+lang: en
+
+github_username: nithish-ctrl
+linkedin_url: "https://www.linkedin.com/in/nithish-ravi/"
+email: "nithish221b@gmail.com"
+
+# The homepage is index.md, which loads README.md
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
