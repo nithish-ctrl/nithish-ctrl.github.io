@@ -1,4 +1,3 @@
-# Nithish's Portfolio
 ---
 layout: default
 title: Home
